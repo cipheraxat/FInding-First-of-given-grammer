@@ -3,8 +3,9 @@
 Epsilon is represented by @ and terminals with only single characters work, example a terminal as 'id' won't work here
 
 Input
-
+```
 Enter no. of terminals: 5
+
 Enter the terminals :
 +
 *
@@ -27,13 +28,14 @@ T->FY
 Y->*FY/@
 F->a/(E)
 
-
+```
 output
 
-
+```
    Non Terminals           First        
          E               {'(', 'a'}     
          B               {'+', '@'}     
          T               {'(', 'a'}     
          Y               {'*', '@'}     
          F               {'(', 'a'}
+```
